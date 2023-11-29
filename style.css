@@ -231,7 +231,7 @@ font-family: 'Poppins', sans-serif;
 .opinions .container .contentBx h3
 {
     width: 100%;
-    text-align: end;
+    text-align: center;
     font-weight: 500;
     color: #3f8ffc;
 }
