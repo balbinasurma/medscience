@@ -87,7 +87,7 @@ font-family: 'Poppins', sans-serif;
 .heading
 {
     color: #fff;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -426,5 +426,12 @@ font-family: 'Poppins', sans-serif;
     .footer ul
     {
         margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px)
+{
+    .main .content p
+    {
+        font-size: 14px;
     }
 }
