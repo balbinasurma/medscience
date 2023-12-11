@@ -81,7 +81,7 @@ font-family: 'Poppins', sans-serif;
 .about .contentBx
 {
     background: #162c3b;
-    padding: 100px;
+    padding: 60px;
     width: 50%;
 }
 .heading
@@ -250,7 +250,7 @@ font-family: 'Poppins', sans-serif;
 }
 .redbg
 {
-    background: url(red.jpg) !important;
+    background: #171b1e !important;
     background-size: cover;
     background-position: center;
 }
@@ -348,7 +348,7 @@ font-family: 'Poppins', sans-serif;
     }
     .main .content p
     {
-        font-size: 16px;
+        font-size: 17px;
     }
     .about
     {
@@ -430,8 +430,5 @@ font-family: 'Poppins', sans-serif;
 }
 @media (max-width: 600px)
 {
-    .main .content p
-    {
-        font-size: 16px;
-    }
+   
 }
