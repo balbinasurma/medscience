@@ -241,6 +241,11 @@ font-family: 'Poppins', sans-serif;
     background: #162c3b;
     text-align: center;
 }
+.contact p
+{
+ font-size: 20px;
+ color:#3f8ffc;
+}
 .imgBx2
 {
     background: url(zzz.jpg);
@@ -269,7 +274,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: #fff;
-    border-bottom: 2px solid #fff;
+    border-bottom: 0.5px solid #fff;
 }
 .form .inputBx input::placeholder
 {
@@ -295,8 +300,9 @@ font-family: 'Poppins', sans-serif;
 }
 .form .inputBx input[type="submit"]
 {
-    width: 150px;
-    background: #fff;
+   
+    padding: 10px;
+    background: #3f8ffc;
     color: #111;
     cursor: pointer;
     font-weight: 400;
@@ -428,7 +434,14 @@ font-family: 'Poppins', sans-serif;
         margin-bottom: 20px;
     }
 }
-@media (max-width: 600px)
+@media (max-width: 400px)
 {
-   
+    .main .content h2
+    {
+        font-size: 36px;
+    }
+    .main .content p
+    {
+ 
+    }
 }
