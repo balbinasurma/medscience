@@ -237,11 +237,22 @@ font-family: 'Poppins', sans-serif;
 }
 .contact
 {
-    padding: 100px;
+    padding: 70px;
     background: #162c3b;
     text-align: center;
 }
 .contact p
+{
+ font-size: 20px;
+ color:#3f8ffc;
+}
+.contact1
+{
+    padding: 70px;
+    background: #12222d;
+    text-align: center;
+}
+.contact1 p
 {
  font-size: 20px;
  color:#3f8ffc;
