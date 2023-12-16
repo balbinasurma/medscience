@@ -80,9 +80,26 @@ font-family: 'Poppins', sans-serif;
 }
 .about .contentBx
 {
-    background: #162c3b;
+    background: #12222d;
     padding: 60px;
     width: 50%;
+}
+#myButton
+{
+    background-color: #12222d;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+    margin-bottom: 8px;
+    border-color:#3475ca ;
+}
+#myButton:hover
+{
+	background-color:#3475ca ;
 }
 .heading
 {
@@ -249,7 +266,7 @@ font-family: 'Poppins', sans-serif;
 .contact1
 {
     padding: 70px;
-    background: #12222d;
+    background: #162c3b;
     text-align: center;
 }
 .contact1 p
@@ -266,10 +283,13 @@ font-family: 'Poppins', sans-serif;
 }
 .redbg
 {
-    background: #171b1e !important;
+    background: #162c3b; !important;
     background-size: cover;
     background-position: center;
 }
+#displayText {
+    display: none;
+  }
 .form
 {
     margin-bottom: 40px;
@@ -313,11 +333,26 @@ font-family: 'Poppins', sans-serif;
 {
    
     padding: 10px;
-    background: #3f8ffc;
-    color: #111;
+    background: #162c3b;
+    color: #fff;
     cursor: pointer;
     font-weight: 400;
     margin-top: 20px;
+    border-color: #3475ca;;
+}
+.form .inputBx input[type="submit"]:hover
+{
+    background: #3475ca;;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 20px;
+    border-color: ;
+}
+#displayText
+{
+    color: #fff;
+    font-size: 13px;
 }
 .footer
 {
