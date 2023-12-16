@@ -250,7 +250,7 @@ font-family: 'Poppins', sans-serif;
     width: 100%;
     text-align: center;
     font-weight: 500;
-    color: #3f8ffc;
+    color: #3475ca;
 }
 .contact
 {
@@ -272,7 +272,7 @@ font-family: 'Poppins', sans-serif;
 .contact1 p
 {
  font-size: 20px;
- color:#3f8ffc;
+ color:#3475ca;
 }
 .imgBx2
 {
@@ -283,7 +283,7 @@ font-family: 'Poppins', sans-serif;
 }
 .redbg
 {
-    background: #162c3b; !important;
+    background: #162c3b; !important;s
     background-size: cover;
     background-position: center;
 }
@@ -338,16 +338,15 @@ font-family: 'Poppins', sans-serif;
     cursor: pointer;
     font-weight: 400;
     margin-top: 20px;
-    border-color: #3475ca;;
+    border-color: #3475ca;
 }
 .form .inputBx input[type="submit"]:hover
 {
-    background: #3475ca;;
+    background: #3475ca;
     color: #fff;
     cursor: pointer;
     font-weight: 400;
     margin-top: 20px;
-    border-color: ;
 }
 #displayText
 {
