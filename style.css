@@ -101,6 +101,19 @@ font-family: 'Poppins', sans-serif;
 {
 	background-color:#3475ca ;
 }
+#wiecejButton
+{
+    background-color: #12222d;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+    margin-bottom: 8px;
+    border-color:#3475ca ;
+}
 .heading
 {
     color: #fff;
@@ -150,7 +163,7 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     background: #fff;
     width: 350px;
-    height:400px;
+    height:600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,6 +366,7 @@ font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 13px;
 }
+
 .footer
 {
     background: #162c3b;
