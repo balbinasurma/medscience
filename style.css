@@ -35,7 +35,7 @@ font-family: 'Poppins', sans-serif;
 .main .content h2
 {
     color: #fff;
-    font-size: 60px;
+    font-size: 55px;
 }
 .main .content p
 {
@@ -125,7 +125,7 @@ font-family: 'Poppins', sans-serif;
 .text
 {
     color: #fff;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -163,14 +163,16 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     background: #fff;
     width: 350px;
-    height:600px;
+    height:700px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 .card .container .serviceBx img
 {
     max-width: 100px;
+    margin-top: 40px;
 }
 .card .container .serviceBx h2
 {
@@ -424,7 +426,7 @@ font-family: 'Poppins', sans-serif;
     {
         width: 100%;
         padding: 50px;
-        min-height: 400px;
+        min-height: 480px;
         text-align: left;
     }
     .card
@@ -439,8 +441,7 @@ font-family: 'Poppins', sans-serif;
     .card .container .serviceBx
     {
         margin: 20px;
-        width: 300px;
-        height: 350px;
+      
     }
     .tech
     {
@@ -456,7 +457,7 @@ font-family: 'Poppins', sans-serif;
     }
     .bootcamp
     {
-        padding: 50px;
+        padding: 10px;
     }
     .bootcamp .imgBx
     {
