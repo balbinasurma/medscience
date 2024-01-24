@@ -16,6 +16,16 @@ font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items:center;
 }
+.main2
+{
+    position: relative;
+    width: 100%;
+    
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 .main img
 {
     position: absolute;
@@ -54,9 +64,30 @@ font-family: 'Poppins', sans-serif;
     align-items:center;
     z-index: 10000;
 }
+.main2 header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 10000;
+}
 .main header .logo
 {
-    color:#fff;
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.main2 header .logo
+{
+    color:white;
     text-decoration: none;
     font-size: 24px;
     text-transform: uppercase;
@@ -64,6 +95,15 @@ font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 .main header .toggle
+{
+    position: relative;
+    width: 36px;
+    height: 28px;
+    background: url(toggle.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.main2 header .toggle
 {
     position: relative;
     width: 36px;
@@ -143,6 +183,437 @@ font-family: 'Poppins', sans-serif;
     background-size: cover;
     background-position: center;
 }
+
+
+
+.bigboxkal6
+{
+	display: flex;
+	padding:50px;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 10000px;
+	font-size: 15px;
+	line-height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.contentkal6a 
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6b
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6c
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6d
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;	
+}
+
+.contentkal6e
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6f
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6g
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+#champion
+{
+    height: 40px;
+}
+
+
+.contentkal6h
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6i
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6j
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6k
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6l
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6m
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6n
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6o
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.contentkal6p
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+
+.WIC1
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.WIC2
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.WIC3
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.WIC4
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.WIC5
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.WIC6
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.GIC1
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.GIC2
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.GIC3
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.u1
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.u2
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.u3
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euI
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euII
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euIII
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euIV
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euV
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euVI
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euVII
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euVIII
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euIX
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.meI
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.meII
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.mśI
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.mśII
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.pruszcz
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.pp1
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.pp2
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.pp3
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.ump1
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.tmp1
+{
+	background: #0D0D0D;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+
+
+.button 
+{
+	background-color: #bf0dcf;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+}
+
+.button:hover
+{
+	background-color: #c550d0;
+}
+
+.bigboxkal6 span
+{
+	color: #bf0dcf;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
 .card
 {
     background: #12222d;
@@ -163,7 +634,7 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     background: #fff;
     width: 400px;
-    height:700px;
+    height:900px;
     display: flex;
     justify-content: center;
     align-items: center;
