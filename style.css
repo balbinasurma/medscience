@@ -70,7 +70,7 @@ font-family: 'Poppins', sans-serif;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -80,7 +80,7 @@ font-family: 'Poppins', sans-serif;
 {
     color:white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
@@ -157,7 +157,7 @@ font-family: 'Poppins', sans-serif;
 .heading
 {
     color: #fff;
-    font-size: 23px;
+    font-size: 35px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -165,10 +165,25 @@ font-family: 'Poppins', sans-serif;
 .text
 {
     color: #fff;
-    font-size: 100%;
+    font-size: 20px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 1px; 
 }
+.text5
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px; 
+}
+.text8
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
 .text1
 {
     color: #fff;
@@ -871,14 +886,46 @@ font-family: 'Poppins', sans-serif;
     max-width: 20px;
 }
 @media (max-width: 991px)
+
 {
+    
+    .text5
+{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px; 
+}
+.opinions .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.text8
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+    .heading
+    {
+    
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
     .main
     {
         padding: 50px;
     }
     .main header
     {
-        padding: 20px 50px;
+        padding: 50px 50px;
     }
     .main .content h2
     {
@@ -928,7 +975,7 @@ font-family: 'Poppins', sans-serif;
     }
     .bootcamp
     {
-        padding: 10px;
+        padding: 50px;
     }
     .bootcamp .imgBx
     {
