@@ -94,6 +94,7 @@ font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
+    padding: 40px;
 }
 .main header .toggle
 {
