@@ -223,7 +223,10 @@ svg path {
     background-position: center;
 }
 
-
+#pc
+{
+    max-width: 250px;
+}
 
 .bigboxkal6
 {
@@ -232,7 +235,7 @@ svg path {
 	flex-direction: column;
 	justify-content: space-around;
 	height: 10000px;
-	font-size: 20px;
+	font-size: 23px;
 	line-height: 30px;
     background-color: #000000;
     color: #ffffff;
