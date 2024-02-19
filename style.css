@@ -225,7 +225,9 @@ svg path {
 
 #pc
 {
-    max-width: 250px;
+    
+    max-width: 180px;
+    max-height: 150px;
 }
 
 .bigboxkal6
