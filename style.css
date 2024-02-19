@@ -667,7 +667,7 @@ svg path {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
     flex-wrap: wrap;
     margin-top: 60px;
 }
@@ -679,7 +679,7 @@ svg path {
     height:1380px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     margin-bottom: 40px;
 }
 .card .container .serviceBx img
@@ -984,7 +984,7 @@ svg path {
     .card .container
     {
         justify-content: center;
-        margin-top: 20px;
+        
     }
     .card .container .serviceBx
     {
