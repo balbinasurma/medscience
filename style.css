@@ -230,6 +230,12 @@ svg path {
     max-height: 150px;
 }
 
+#insta
+{
+   max-width: 200px;
+   cursor: pointer;
+   
+}
 .bigboxkal6
 {
 	display: flex;
@@ -888,7 +894,7 @@ svg path {
 .footer
 {
     background: #162c3b;
-    padding: 20px 100px;
+    padding: 0px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
