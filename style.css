@@ -635,7 +635,7 @@ svg path {
 
 .button 
 {
-	background-color: #bf0dcf;
+	background-color: #de31d0;
 	color: white;
 	padding: 10px 25px;
 	text-align: center;
@@ -644,10 +644,24 @@ svg path {
 	font-size: 16px;
 	margin-top: 8px;
 }
-
+.button1
+{
+	background-color: #e71c70;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.button1:hover
+{
+	background-color: #dc5ca9;
+}
 .button:hover
 {
-	background-color: #c550d0;
+	background-color: #dd81d6;
 }
 
 .bigboxkal6 span
@@ -895,16 +909,18 @@ svg path {
 {
     background: #162c3b;
     padding: 0px 50px;
+   
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
 }
 .footer ul
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .footer ul li
 {
@@ -919,7 +935,7 @@ svg path {
 .footer ul li a img
 {
     filter: invert(1);
-    max-width: 20px;
+    max-width: 30px;
 }
 @media (max-width: 991px)
 
