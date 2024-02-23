@@ -71,8 +71,6 @@ font-family: 'Poppins', sans-serif;
     top: 0;
     left: 0;
     width: 100%;
-    
-    display: flex;
     justify-content: space-between;
     align-items:center;
     z-index: 10000;
@@ -637,9 +635,14 @@ svg path {
     opacity: 100;
     margin-top: 20px;
     margin-left:20px;
-    
-   
 }
+#medlogoh
+{
+    width: 250px;
+    opacity: 100;
+    
+}
+
 
 .button 
 {
