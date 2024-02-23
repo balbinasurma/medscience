@@ -59,7 +59,7 @@ font-family: 'Poppins', sans-serif;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 70px 100px;
     display: flex;
     justify-content: space-between;
     
@@ -631,7 +631,15 @@ svg path {
 	padding: 40px;
 }
 
-
+#medlogo
+{
+    width: 450px;
+    opacity: 100;
+    margin-top: 20px;
+    margin-left:20px;
+    
+   
+}
 
 .button 
 {
