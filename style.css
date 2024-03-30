@@ -220,7 +220,10 @@ svg path {
     background-size: cover;
     background-position: center;
 }
-
+.imgBx1
+{
+    text-align: justify;
+}
 #pc
 {
     
@@ -753,7 +756,9 @@ svg path {
 {
     background: ;
     padding: 100px;
+    padding-bottom: 0px;
     text-align: center;
+    padding-top: 50px;
 }
 .bootcamp h2
 {
