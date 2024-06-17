@@ -68,7 +68,7 @@ font-family: 'Poppins', sans-serif;
 .main2 header
 {
     position: absolute;
-    top: -40px;
+    top: 20px;
     left: 0;
     width: 100%;
     justify-content: space-between;
