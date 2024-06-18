@@ -669,6 +669,17 @@ svg path {
 	font-size: 16px;
 	margin-top: 8px;
 }
+.button2
+{
+	background-color: #2d35cf;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+}
 .button1:hover
 {
 	background-color: #dc5ca9;
@@ -676,6 +687,10 @@ svg path {
 .button:hover
 {
 	background-color: #dd81d6;
+}
+.button2:hover
+{
+	background-color: #4687b0;
 }
 
 .bigboxkal6 span
@@ -702,7 +717,7 @@ svg path {
 {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
     flex-wrap: wrap;
     margin-top: 60px;
@@ -712,7 +727,7 @@ svg path {
     position: relative;
     background: #fff;
     width: 400px;
-    height:1380px;
+    height:1100px;
     display: flex;
     justify-content: center;
     
