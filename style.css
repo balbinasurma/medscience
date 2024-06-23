@@ -249,7 +249,17 @@ svg path {
     background-color: #000000;
     color: #ffffff;
 }
-
+.bigboxkal6wak
+{
+	display: flex;
+	padding:50px;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 23px;
+	line-height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+}
 .contentkal6a 
 {
 	background: #0D0D0D;
