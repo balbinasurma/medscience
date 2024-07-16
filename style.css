@@ -974,7 +974,7 @@ svg path {
 #displayText
 {
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .footer
@@ -1016,7 +1016,7 @@ svg path {
     .text5
 {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px; 
 }
