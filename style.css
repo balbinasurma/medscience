@@ -255,6 +255,7 @@ svg path {
 {
    max-width: 200px;
    cursor: pointer;
+   border-radius: 50px;
    
 }
 .bigboxkal6
@@ -295,7 +296,23 @@ svg path {
 	border-radius: 5px;
 	padding: 40px;
 }
-
+.stopka1
+{
+   
+}
+.stopka2
+{
+    font-weight: 600;
+    
+}
+.stopka3
+{
+    margin-left: -150px;
+}
+.stopka4
+{
+   
+}
 .contentkal6c
 {
 	background: #0D0D0D;
@@ -1020,25 +1037,20 @@ svg path {
     font-weight: 500;
     font-size: 30px;
 }
-.footer
-{
+.footer {
     background: #162c3b;
     padding: 0px 50px;
     color: white;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     font-size: 20px;
     font-weight: 300;
-    display: flex;
-}
+    }
 .footer ul
 {
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: space-between;
 }
 .footer ul li
 {
