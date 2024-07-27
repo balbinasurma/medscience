@@ -103,6 +103,23 @@ font-family: 'Poppins', sans-serif;
     background-size: cover;
     cursor: pointer;
 }
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 360px; /* szerokość ekranu telefonu */
+    height: 0;
+    padding-bottom: 50.78%; /* współczynnik proporcji 16:9 */
+    margin: 0 auto; /* wycentrowanie */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
 .main2 header .toggle
 {
     position: relative;
@@ -814,6 +831,17 @@ svg path {
     text-align: center;
     padding-top: 50px;
 }
+
+.korkizbiologii
+{
+    background:black;
+    padding: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+    padding-top: 50px;
+    height: 500px;
+    display: flex;
+}
 .bootcamp h2
 {
     background:black ;
@@ -963,6 +991,7 @@ svg path {
     margin-top: 20px;
     border-color: #3475ca;
 }
+
 .form .inputBx input[type="submit"]:hover
 {
     background: #3475ca;
@@ -1002,6 +1031,7 @@ svg path {
     align-items: center;
     font-size: 20px;
     font-weight: 300;
+    display: flex;
 }
 .footer ul
 {
@@ -1029,7 +1059,7 @@ svg path {
 
 {
     
-    .text5
+.text5
 {
     color: #fff;
     font-size: 20px;
