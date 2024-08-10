@@ -7,6 +7,8 @@ box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
 
+
+
 .main
 {
     position: relative;
@@ -1067,9 +1069,35 @@ svg path {
     filter: invert(1);
     max-width: 30px;
 }
+
 @media (max-width: 991px)
 
 {
+    
+
+    .korkizbiologii
+    {
+        background:black;
+        
+    
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 2000px;
+        flex-direction: column;
+    }
+
+    .video-container iframe {
+        height: 100%; /* Upewnia się, że film zajmuje całe dostępne okno */
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: none; /* Usuwa ograniczenie szerokości */
+        margin: 0; /* Usuwa marginesy między filmami */
+        height: 100vh; /* Wypełnia cały ekran na wysokość */
+        padding-bottom: 0; /* Usuwa padding dla pełnej wysokości ekranu */
+    }
     
 .text5
 {
@@ -1191,6 +1219,10 @@ svg path {
         padding: 20px 50px;
         flex-direction: column-reverse;
         text-align: center;
+    }
+    .stopka2
+    {
+        display:none;
     }
     .footer ul
     {
