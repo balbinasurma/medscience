@@ -179,7 +179,11 @@ font-family: 'Poppins', sans-serif;
     margin-bottom: 8px;
     border-color:#3475ca ;
 }
-
+.calendar
+{
+    width: 120px;
+    height: 120px;
+}
 .heading
 {
     color: #fff;
