@@ -835,22 +835,23 @@ svg path {
     width: 100%;
     padding: 100px;
     padding-top: 300px;
-    margin-top: -300px;
+    margin-top: -400px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .tech .contentBx
 {
-    max-width: 800px;
+    max-width: 1000px;
 }
-.tech .imgBx
+.biologiadomaturyukładkrwionośny .imgBx
 {
-    max-width: 250px;
+    max-width: 200px;
 }
 .tech .imgBx img
 {
-    max-width: 100%;
+    max-width: 120%;
 }
 .bootcamp
 {
