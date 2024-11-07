@@ -851,7 +851,7 @@ svg path {
 }
 .tech .imgBx img
 {
-    max-width: 120%;
+    max-width: 100%;
 }
 .bootcamp
 {
@@ -1187,7 +1187,7 @@ svg path {
     .tech
     {
         padding: 50px;
-        padding-top:300px;
+        padding-top:400px;
         justify-content: center;
         flex-direction: column;
     }
