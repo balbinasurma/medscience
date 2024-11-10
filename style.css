@@ -191,6 +191,7 @@ font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    justify-content: center; 
 }
 svg {
     width: 40px;
@@ -276,7 +277,7 @@ svg path {
 	padding:50px;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 10000px;
+	height: 7700px;
 	font-size: 23px;
 	line-height: 30px;
     background-color: #000000;
