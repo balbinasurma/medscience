@@ -264,6 +264,8 @@ svg path {
     
     max-width: 180px;
     max-height: 150px;
+    display: inline-flex;
+    padding-right: 20px;
 }
 
 #insta
