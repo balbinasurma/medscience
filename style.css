@@ -115,7 +115,26 @@ font-family: 'Poppins', sans-serif;
     padding-bottom: 50.78%; /* współczynnik proporcji 16:9 */
     margin: 0 auto; /* wycentrowanie */
 }
+.medscience-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 26px;
+  background: linear-gradient(135deg, #1e88e5, #1565c0);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.25);
+  transition: all 0.25s ease;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
+.medscience-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(21, 101, 192, 0.35);
+}
 .video-container video {
     position: absolute;
     top: 0;
