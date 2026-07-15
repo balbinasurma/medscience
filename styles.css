@@ -5,6 +5,47 @@ h1 {
   font-weight: 900;
 }
 
+/* Podstawowe ustawienia */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Elementy nie mogą być szersze niż ekran */
+img,
+iframe,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kontenery */
+.container,
+section,
+main {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Elementy flex nie powinny wymuszać szerokości */
+.flex,
+.row {
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -24,7 +65,7 @@ body {
   padding: 3% 15% 7%;
 }
 .hemo {
-    width: 1000px;
+    
     height: auto;
     display: block;
 
