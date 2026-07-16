@@ -65,13 +65,10 @@ body {
   padding: 3% 15% 7%;
 }
 .hemo {
-    
     height: auto;
     display: block;
-
-    margin-top: -450px;
-    margin-left: 100px;
-
+    margin-top: -350px;
+    margin-left: 300px;
     position: relative;
     z-index: 1;
 }
