@@ -792,7 +792,7 @@ svg path {
 
 .bootcamp .imgBx {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 10px;
   }
   
@@ -805,7 +805,7 @@ svg path {
 
   .bootcamp .imgBx5 img {
     width: 100%;
-    height: 500px;
+    height: 450px;
     object-fit: cover;
     display:flex-wrap;
   }
@@ -829,7 +829,7 @@ svg path {
     justify-content: space-evenly;
     
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .card .container .serviceBx
 {
@@ -907,7 +907,6 @@ svg path {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 40px;
 }
 .bootcamp .imgBx img
 {
