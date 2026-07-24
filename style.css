@@ -279,6 +279,10 @@ svg path {
     font-weight: 300;
     font-size: 20px;
 }
+.imgBx
+{
+    z-index: 1;
+}
 #pc
 {
     
@@ -814,6 +818,7 @@ svg path {
     max-width: 300px;
     margin: 10px;
     cursor: pointer;
+    margin-top: 40px;
 }
 
 .card
