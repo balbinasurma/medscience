@@ -866,5 +866,53 @@ Chcemy pokazać, że sukces nie ma jednej drogi – można go osiągać zarówno
                
 
     </div>
+<style>
+  .snowflake {
+    position: fixed;
+    top: -10px;
+    color: white;
+    pointer-events: none;
+    user-select: none;
+    z-index: 999999;
+    animation: snowfall linear infinite;
+  }
+
+  @keyframes snowfall {
+    0% {
+      transform: translateY(-10vh) translateX(0);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(110vh) translateX(50px);
+      opacity: 0.3;
+    }
+  }
+</style>
+
+<script>
+  const snowContainer = document.createElement("div");
+  document.body.appendChild(snowContainer);
+
+  function createSnowflake() {
+    const snowflake = document.createElement("div");
+    snowflake.className = "snowflake";
+    snowflake.innerHTML = "❄";
+
+    snowflake.style.left = Math.random() * 100 + "vw";
+    snowflake.style.fontSize = (Math.random() * 20 + 20) + "px";
+    snowflake.style.opacity = Math.random();
+    snowflake.style.animationDuration = (Math.random() * 5 + 5) + "s";
+
+    snowContainer.appendChild(snowflake);
+
+    setTimeout(() => {
+      snowflake.remove();
+    }, 10000);
+  }
+
+  setInterval(createSnowflake, 150);
+</script>
+
 </body>
 </html>
