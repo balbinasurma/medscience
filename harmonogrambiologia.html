@@ -104,10 +104,10 @@
                       Budowa chromosomu<br>
                       Replikacja DNA<br>
                       Podział komórki (mitoza i mejoza)<br>
-                      Mutacje - liczbowe, strukturalne, punktowe<br>
                       Choroby genetyczne<br>
                       I i II Prawo Mendla<br>
                       Dziedziczenie cech<br>
+                      Mutacje - liczbowe, strukturalne, punktowe<br>
                       Zadania z arkuszy maturalnych<br>
                       </br>
                       <div class="iconachampion">
@@ -119,13 +119,17 @@
                     <div class="euV">
                         <span>5-18 października 2026</span> - BIOTECHNOLOGIA I STATYSTYKA
                         </br><br>
-                        PCR, RFLP, SSCP, HA, sekwencjonowanie DNA<br>
-                        Elektroforeza żelowa<br>
-                        Klonowanie organizmów<br>
                         Nowotwory i czynniki kancerogenne<br>
-                        Nokaut genetyczny<br>
+                        Elektroforeza żelowa<br>
+                        PCR i jego rodzaje<br>
+                        Sekwencjonowanie Sangera<br>
                         Zastosowanie inżynierii genetycznej<br>
-                        GMO, GMM<br>
+                        Klonowanie molekularne<br>
+                        Klonowanie organizmów<br>
+                        Terapia genowa<br>
+                        Komórki macierzyste w medycynie regeneracyjnej<br>
+                        GMO a organizmy transgeniczne, GMM<br>
+                        Nokaut genetyczny<br>
                         Zadania z arkuszy maturalnych<br>
                           </br>
                           <div class= "iconachampion">
@@ -138,7 +142,6 @@
                       <span>19 października - 1 listopada 2026</span> - BUDOWA KOMÓREK
                       </br><br>
                       <p style="color:#00ff00">WARSZTAT Z MODELAMI KOMÓRKOWYMI I MIKROSKOPEM</p> <br>
-                      <img id="pc" src="p.jpg"><img id="pc" src="bg.jpg"><br><br>
                       Model 3D komórki roślinnej i zwierzęcej<br>
                       Siateczka śródplazmatyczna szorstka i gładka (ER)<br>
                       Aparat Golgiego<br>
@@ -348,7 +351,6 @@
                     <div class="euV">
                         <span>13 kwietnia - 7 maj 2027</span> - POWTÓRKA PRZED EGZAMINEM !
                         </br><br>
-                        <img id="pc" src="bg2.jpg"><br><br>
                         
                           <div class= "iconachampion">
                                 <a href="" class="button">więcej</a>
@@ -357,7 +359,7 @@
                     </div>
                     <div class="euV">
                         <span>SERDECZNIE GRATULUJEMY UKOŃCZENIA KURSU W</span>  <p style=color:aqua>MEDSCIENCE !</p><br>
-                        <img id="pc" src="z2.jpg"><br><br>
+                       
                          DZIĘKUJEMY ŻE NAS WYBRAŁEŚ ORAZ<br>
                          ŻYCZYMY POŁAMANIA DŁUGOPISU NA MATURZE :)<br>
                           </br>
@@ -383,5 +385,54 @@
             </ul>
             
         </section>
+
+<style>
+  .snowflake {
+    position: fixed;
+    top: -10px;
+    color: white;
+    pointer-events: none;
+    user-select: none;
+    z-index: 999999;
+    animation: snowfall linear infinite;
+  }
+
+  @keyframes snowfall {
+    0% {
+      transform: translateY(-10vh) translateX(0);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(110vh) translateX(50px);
+      opacity: 0.3;
+    }
+  }
+</style>
+
+<script>
+  const snowContainer = document.createElement("div");
+  document.body.appendChild(snowContainer);
+
+  function createSnowflake() {
+    const snowflake = document.createElement("div");
+    snowflake.className = "snowflake";
+    snowflake.innerHTML = "❄";
+
+    snowflake.style.left = Math.random() * 100 + "vw";
+    snowflake.style.fontSize = (Math.random() * 15 + 10) + "px";
+    snowflake.style.opacity = Math.random();
+    snowflake.style.animationDuration = (Math.random() * 5 + 5) + "s";
+
+    snowContainer.appendChild(snowflake);
+
+    setTimeout(() => {
+      snowflake.remove();
+    }, 10000);
+  }
+
+  setInterval(createSnowflake, 150);
+</script>
+
   </body>
 </html>
